@@ -8,8 +8,8 @@ Assessment Interest Groups) Metadata Working Group.
 Work in this space included a survey of digital libraries regarding metadata field
 usage and metadata quality activities and needs.  The survey and data have been 
 publicly released, along with an initial white paper summarizing general data and a
-paper documenting certain findings in more depth.  Information is available on the
-main Metadata Working Group website at: <link to benchmarks>
+paper documenting certain findings in more depth.  Information is available `on the
+main Metadata Working Group website <https://dlfmetadataassessment.github.io/projects/benchmarks/>_`.
 
 
 Review of Benchmarks Documentation
@@ -42,5 +42,5 @@ could not have been completed without input from the community.
 
 Contact
 -------
-More information about the Metadata Working Group may be found on `this wiki page <https://wiki.diglib.org/Assessment:Metadata>_`.
-Current leadership information for the Group is listed on the DLF `group page <https://www.diglib.org/groups/assessment-interest-group/>_`.
+-   More information about the Metadata Working Group may be found on `this wiki page <https://wiki.diglib.org/Assessment:Metadata>_`.
+-   Current leadership information for the Group is listed on the DLF `group page <https://www.diglib.org/groups/assessment-interest-group/>_`.
