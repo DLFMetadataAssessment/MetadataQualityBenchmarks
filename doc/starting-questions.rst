@@ -161,7 +161,7 @@ Local Resources
 |   -   Who are the people needed to create benchmarks?                             |-  Some kinds of remediation work could be done by student workers or          |
 |   -   How many people are available to do any remediation or enhancement work     |   non-metadata experts (e.g., change all date formats from ## mo YYYY to      |
 |       identified by assessment?                                                   |   YYYY-MM-DD; add spaces between initials in names, etc.)                     |
-|   -   What technical personnel (or expertise) are needed to use assessment tools  |-  If additional tools or functionality is needed -- such as a batch edit      |
+|   -   What technical personnel (or expertise) are needed to use assessment tools  |-  If additional tools or functionality are needed -- such as a batch edit     |
 |       edit records?                                                               |   feature -- are there people who would need to be consulted or brought in to |
 |                                                                                   |   work on the project?                                                        |
 +-----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
