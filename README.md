@@ -3,4 +3,4 @@ Benchmarks for metadata quality developed by the DLF-AIG Metadata Working Group 
 
 ## Documentation
 More information about implementation with Sphinx/Read the Docs:
-[How to document your research software](https://coderefinery.github.io/documentation/).
+[[Getting Started (with Sphinx)]([https://coderefinery.github.io/documentation/]
