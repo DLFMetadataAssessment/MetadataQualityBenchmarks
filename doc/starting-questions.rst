@@ -131,7 +131,7 @@ Local Resources
 
 **Links to Related Metadata Working Group Resources**
 
--   Tools list (for potential assessment tools)l: http://dlfmetadataassessment.github.io/projects/tools/
+-   Tools list (for potential assessment tools): http://dlfmetadataassessment.github.io/projects/tools/
 -   Skill-building resources (related to using command-line and similar concepts): http://dlfmetadataassessment.github.io/projects/skill-building-resources/
 -   Metadata documentation from other institutions: http://dlfmetadataassessment.github.io/projects/metadata-application-profiles/
 

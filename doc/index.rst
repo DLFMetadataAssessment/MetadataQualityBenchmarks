@@ -43,7 +43,7 @@ Please note that the metadata quality benchmarks are focused specifically on des
    /about
 
 
-`Back to MWG homepage <https://dlfmetadataassessment.github.io/>_`
+`Back to MWG homepage <https://dlfmetadataassessment.github.io/>`_
 
 
 

@@ -35,3 +35,4 @@ html_css_files = [
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
