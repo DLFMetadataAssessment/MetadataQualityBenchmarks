@@ -10,7 +10,7 @@ Usage:
 -   Each criterion is intended to be “system agnostic” but some may not apply to 
     every situation (e.g., local field requirements)
 -   Criteria are binary -- i.e., the set being evaluated must meet all points or 
-    it does not meet the benchmarking standard
+    it does not meet the benchmarking standard for that level
 -   These benchmarks focus solely on the quality of metadata entry, not the quality 
     of information (i.e., available information is all entered correctly, although 
     we might wish that additional information is known about an item to improve the record)
