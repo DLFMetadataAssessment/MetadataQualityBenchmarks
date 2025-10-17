@@ -76,3 +76,4 @@ Sources Related to Non-Descriptive Metadata
 
 -  PREMIS dictionary for preservation metadata: https://www.loc.gov/standards/premis/
 -  Dublin Core (DCMI) overview of metadata types and resources: https://www.dublincore.org/resources/metadata-basics/
+-  List of metadata standards and resources: https://nkos.dublincore.org/Metadata-standards.html
