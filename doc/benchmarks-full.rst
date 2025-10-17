@@ -5,14 +5,14 @@ This documentation provides more specific information about how an organization 
 
 -   *Benchmark:* criterion that must be met
 -   *Metric(s):* mechanism or measurement to determine if a record/value meets the benchmark standard; these may depend on local guidelines and field usage
--   *Examples and Notes:* non-exhaustive list of additional clarification and/or examples of values that may or may not meet a metric
+-   *Examples and Notes:* non-exhaustive list of additional clarifications and/or examples of values that may or may not meet a metric
 
 In this model, the benchmark and metrics set the standard (i.e., the criteria that must be met to qualify for that quality level) and the examples show some ways that the standard might be applied for different local circumstances.  Also note that minimal and ideal levels are clearly defined, while all intermediary benchmarking stages are left up to local organizations.  The benchmarks in the “suggested” section describe suggested priorities for organizations setting “better-than-minimal” benchmarks for their metadata that fall between minimal and ideal.
 
 -   General benchmarks usage:
 
     -   Each criterion is intended to be “system agnostic” but some may not apply to every situation (e.g., local field requirements)
-    -   Criteria are binary -- i.e., the set being evaluated must meet all points or it does not meet the benchmarking standard
+    -   Criteria are binary -- i.e., the set being evaluated must meet all points or it does not meet the benchmarking standard for that level
     -   These benchmarks focus solely on the quality of metadata entry, not the quality of information (i.e., available information is all entered correctly, although we might wish that additional information is known about an item to improve the record)
     -   This framework is intended to be scalable (it is written in the context of 1 record, but could apply across a collection, resource type, or an entire system)
                              
