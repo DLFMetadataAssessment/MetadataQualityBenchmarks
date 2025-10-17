@@ -15,7 +15,7 @@ These sources were referenced directly to compile benchmarks and supplemental in
 ***************
 Other Resources
 ***************
-This (non-comprehensive) list of references includes a wide array of literature and other resources that may be helpful for organizations that are thinking about benchmarking projects, such as papers and articles related to metadata quality work and benchmarking processes within and outside the library sphere.  We have also tried to include links to resources that may support specific goals that organizations may have for metadata quality or user interactions more generally.
+This (non-comprehensive) list of references includes a wide array of literature and other resources that may be helpful for organizations that are thinking about benchmarking projects, such as papers and articles related to metadata quality work and benchmarking processes within and outside the library sphere.  We have also tried to include links to resources that could support specific goals that organizations may have for metadata quality or user interactions more generally.
 
 
 Sources Related to Benchmarking
@@ -39,7 +39,6 @@ Sources Related to Benchmarking
 
 **Non-Library Resources**
 
--   *“What is Benchmarking and Why is it Important?”* (https://www.inspireone.in/what-is-benchmarking-why-is-it-important/) -- Brief overview of benchmarking and its purpose, based on business concepts; this is helpful to understand the general ideas.
 -   *“IT Benchmarking Explained: How to Assess Your IT Efforts”* (https://www.bmc.com/blogs/it-benchmarking-metrics/) -- More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; this is helpful because software concepts are more closely aligned to digital library software/metadata.
 -   What is the Purpose of Benchmarking?: https://www.sixsigmadaily.com/what-is-the-purpose-of-benchmarking/
 -   Understanding the Purpose of Benchmarking: https://www.isixsigma.com/benchmarking/understanding-purpose-and-use-benchmarking/
@@ -71,3 +70,9 @@ Sources Related to UX/UI
 -   Surveying the Landscape: Use and Usability Assessment of Digital Libraries [White Paper]: https://osf.io/uc8b3
 -   Digital Libraries User Personas Best Practices: https://osf.io/wpb8q/
 -   Digital Content Reuse Assessment Framework Toolkit (D-CRAFT): https://reuse.diglib.org/
+
+Sources Related to Non-Descriptive Metadata
+-------------------------------------------
+
+-  PREMIS dictionary for preservation metadata: https://www.loc.gov/standards/premis/
+-  Dublin Core (DCMI) overview of metadata types and resources: https://www.dublincore.org/resources/metadata-basics/
