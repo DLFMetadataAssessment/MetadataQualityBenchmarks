@@ -46,6 +46,9 @@ Please note that the metadata quality benchmarks are focused specifically on des
 `Back to MWG homepage <https://dlfmetadataassessment.github.io/>`_
 
 
+See this repository `in GitHub <https://github.com/DLFMetadataAssessment/MetadataQualityBenchmarks/>`_
+
+
 
 Indices and tables
 ==================
