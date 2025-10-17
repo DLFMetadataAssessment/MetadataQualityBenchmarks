@@ -17,8 +17,7 @@ Review of Benchmarks Documentation
 
 These benchmarks are maintained in a GitHub repository.  Suggestions, corrections,
 questions, etc. specifically about the content of the benchmarks may be submitted
-as issues in the repository (this does require a GitHub account).  Please include
-an e-mail address if you would prefer a direct response.
+as issues in the repository (this does require a GitHub account): https://github.com/DLFMetadataAssessment/MetadataQualityBenchmarks/
 
 There is currently no plan for a formal revision schedule, however, any submitted
 issues will be reviewed by Metadata Working Group members and addressed based on 
