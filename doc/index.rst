@@ -16,14 +16,8 @@ Please note that the metadata quality benchmarks are focused specifically on des
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Getting Started:
-   
-   /benchmarks-summary
-
-.. toctree::
    :maxdepth: 1
-   :caption: Metadata Benchmarks:
+   :caption: Metadata Benchmarks
 
    /benchmarks-summary
    /benchmarks-full
@@ -43,10 +37,7 @@ Please note that the metadata quality benchmarks are focused specifically on des
    /about
 
 
-`Back to MWG homepage <https://dlfmetadataassessment.github.io/>`_
-
-
-See this repository `in GitHub <https://github.com/DLFMetadataAssessment/MetadataQualityBenchmarks/>`_
+`Back to MWG homepage <https://dlfmetadataassessment.github.io/>`_  ||  See this repository `in GitHub <https://github.com/DLFMetadataAssessment/MetadataQualityBenchmarks/>`_
 
 
 
