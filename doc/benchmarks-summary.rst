@@ -110,7 +110,7 @@ These criteria are focused on the field values specifically -- e.g., string valu
 |       text strings)*                      |   -   *(e.g., MARC subfields that may |-  All values that ought to align with |
 |                                           |       have been pasted in)*           |   standards conform to applicable     |
 |-  No values exceed applicable system      |                                       |   vocabularies or rules               |
-|   character limits                        |-  All "placeholder values have been   |                                       |
+|   character limits                        |-  All "placeholder" values have been  |                                       |
 |                                           |   replaced/removed and are not present|   -   *(e.g., names, dates, locations,|
 |-  There is no text encoding that "breaks" |   in the publicly accessible record   |       subjects, etc.)*                |
 |   records                                 |                                       |                                       |
