@@ -26,7 +26,7 @@ Benchmarks
 **********
 
 This is the summary version, listing only the individual benchmarks, organized according to the
-various aspects a metadata manager might review or verify in a record.  See the :doc:`Full Benchmarks </benchmarks-full>` 
+various aspects a metadata manager might review or verify in a record.  See the :doc:`Expanded Benchmarks </benchmarks-full>` 
 for more details and examples related to each benchmark.
 The summary is also downloadable as a :download:`PDF file </summary-metadata-benchmarks.pdf>`.
 
