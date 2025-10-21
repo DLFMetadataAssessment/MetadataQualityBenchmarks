@@ -154,7 +154,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |                                           |only values that can help collocate related|   used by the governing schema has a  |                                                   |
 |                                           |items across collections (including        |   value (e.g., subject, keyword,      |-  Terms from a local or general thesaurus,        |
 |                                           |aggregations, like DPLA, Europeana, etc.)  |   genre, etc.)                        |   like LCSH                                       |
-|                                           |more braodly by topic.  This also makes    |                                       |-  Subjects from a specialized list or             |
+|                                           |more broadly by topic.  This also makes    |                                       |-  Subjects from a specialized list or             |
 |                                           |subject-based values a good candidate for  |                                       |   thesaurus like MeSH, the Art and                |
 |                                           |review and normalization, if needed.       |                                       |   Architecture Thesaurus, LC Medium of            |
 |                                           |                                           |                                       |   Performance Terms, Chenhall's                   |
