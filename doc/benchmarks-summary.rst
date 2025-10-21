@@ -118,7 +118,7 @@ These criteria are focused on the field values specifically -- e.g., string valu
 |   -   *(i.e., records are not prevented   |       YYYY-MM or notes intended to be |                                       |
 |       from being displayed)*              |       removed by editors)*            |-  Text fields use appropriate         |
 |                                           |                                       |   punctuation, grammar, abbreviations,|
-|                                           |                                       |   etc.)*                              |
+|                                           |                                       |   etc.                                |
 +-------------------------------------------+---------------------------------------+---------------------------------------+
 
 
