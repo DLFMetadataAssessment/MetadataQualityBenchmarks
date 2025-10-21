@@ -20,7 +20,7 @@ Accessibility
 |   communities                                     |   audience or user community                      |
 |-  Infrastructure:                                 |-  Shortened data values -- e.g., abbreviations,   |
 |                                                   |   acronyms, initialisms, etc. -- include          |
-|   -   has a stable source of access (e.g., a      |   definitions, or fuller values, for clarification|
+|   -   has a stable source of access (e.g., a      |   definitions or fuller values for clarification  |
 |       service provider guarantee)                 |                                                   |
 |   -   can be maintained with available local      |                                                   |
 |       resources (monetary, technical, personnel,  |                                                   |
