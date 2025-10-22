@@ -30,7 +30,10 @@ Sources Related to Benchmarking
 
 -   Websites:
 
-    -   *Metadata Assessment Framework and Guidance* (https://dlfmetadataassessment.github.io/projects/framework/) -- Good starting point for assessment with general information specifically related to metadata based on the Bruce/Hillmann quality metrics.
+    -   Metadata Assessment Framework and Guidance: https://dlfmetadataassessment.github.io/projects/framework/  
+
+            Good starting point for assessment with general information specifically related to metadata based on the Bruce/Hillmann quality metrics.
+
     -   “Quality” tiers based on user functionality for Europeana: https://pro.europeana.eu/post/publishing-framework
     -   What is Metadata Assessment [blog], https://www.diglib.org/what-is-metadata-assessment/
     -   Case Studies: Metadata Assessment [blog], https://www.diglib.org/case-studies-metadata-assessment/ 
@@ -39,7 +42,10 @@ Sources Related to Benchmarking
 
 **Non-Library Resources**
 
--   *“IT Benchmarking Explained: How to Assess Your IT Efforts”* (https://www.bmc.com/blogs/it-benchmarking-metrics/) -- More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; this is helpful because software concepts are more closely aligned to digital library software/metadata.
+-   “IT Benchmarking Explained: How to Assess Your IT Efforts”: https://www.bmc.com/blogs/it-benchmarking-metrics/
+
+        More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; this is helpful because software concepts are more closely aligned to digital library software/metadata.
+
 -   What is the Purpose of Benchmarking?: https://www.sixsigmadaily.com/what-is-the-purpose-of-benchmarking/
 -   Understanding the Purpose of Benchmarking: https://www.isixsigma.com/benchmarking/understanding-purpose-and-use-benchmarking/
 
