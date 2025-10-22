@@ -25,7 +25,7 @@ Sources Related to Benchmarking
 
 -   Papers:
 
-    -   Ochoa, X., & Duval, E. (2009).  Automatic evaluation of metadata quality in digital repositories.  International Journal on Digital Libraries, 10(2), 67-91.  doi: 10.1007/s00799-009-0054-4  
+    -   Ochoa, X., & Duval, E. (2009).  Automatic evaluation of metadata quality in digital repositories.  International Journal on Digital Libraries, 10(2), 67-91.  `doi: 10.1007/s00799-009-0054-4 <https://doi.org/10.1007/s00799-009-0054-4>`_  
     -   Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. Communications of the ACM, 45(4), 211-218.
 
 -   Websites:
