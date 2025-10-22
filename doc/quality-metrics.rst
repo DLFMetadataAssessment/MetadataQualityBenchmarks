@@ -166,7 +166,6 @@ Provenance
 
 Timeliness
 ----------
-
 +---------------------------------------------------+---------------------------------------------------+
 |TECHNICAL SPECIFICATIONS                           |METADATA VALUES                                    |
 +===================================================+===================================================+
@@ -179,7 +178,8 @@ Timeliness
 |                                                   |       community or audience                       |
 |                                                   |   -   As general practice or industry standards   |
 |                                                   |       shift                                       |
-|                                                   |   -   Information supports current search and     |
-|                                                   |       usage activities for the user community or  |
-|                                                   |       audience                                    |
+|                                                   |                                                   |
+|                                                   |-   Information supports current search and        |
+|                                                   |    usage activities for the user community or     |
+|                                                   |    audience                                       |
 +---------------------------------------------------+---------------------------------------------------+
