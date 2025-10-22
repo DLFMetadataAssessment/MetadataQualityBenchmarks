@@ -35,19 +35,41 @@ Sources Related to Benchmarking
             Good starting point for assessment with general information specifically related to metadata based on the Bruce/Hillmann quality metrics.
 
     -   “Quality” tiers based on user functionality for Europeana: https://pro.europeana.eu/post/publishing-framework
+
+            From site: "To help our partners understand what we mean by ’quality’, the Publishing Framework 
+            outlines different layers for content and metadata, which we refer to as ‘tiers.’ The content 
+            tiers were developed in 2015 and the metadata tiers added in 2019."
+    
     -   What is Metadata Assessment [blog], https://www.diglib.org/what-is-metadata-assessment/
-    -   Case Studies: Metadata Assessment [blog], https://www.diglib.org/case-studies-metadata-assessment/ 
+    
+            General introduction to metadata assessment and why it is needed, primarily intended for
+            non-experts or metadata specialists who are new to assessment and quality control.
+    
+    -   Case Studies: Metadata Assessment [blog], https://www.diglib.org/case-studies-metadata-assessment/
+    
+            Descriptive examples from three universities with digital collections of different sizes explaining
+            how each organization assesses the seven Bruce/Hillmann framework quality aspects.
+    
     -   Zotero library of resources about metadata assessment: https://www.zotero.org/groups/488224/metadata_assessment
+    
+            Ongoing collection of citations and links for publications, presentations, and similar resources related to
+            metadata quality and assessment.
 
 
 **Non-Library Resources**
 
 -   “IT Benchmarking Explained: How to Assess Your IT Efforts”: https://www.bmc.com/blogs/it-benchmarking-metrics/
 
-        More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; this is helpful because software concepts are more closely aligned to digital library software/metadata.
+        More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; 
+        this is helpful because software concepts are more closely aligned to digital library software/metadata.
 
 -   What is the Purpose of Benchmarking?: https://www.sixsigmadaily.com/what-is-the-purpose-of-benchmarking/
+
+        Very brief introductory description of types of benchmarking and steps.
+
 -   Understanding the Purpose of Benchmarking: https://www.isixsigma.com/benchmarking/understanding-purpose-and-use-benchmarking/
+
+        General overview of benchmarking steps and things to consider, with references to benchmarking in specific industries.
 
 
 
