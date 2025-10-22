@@ -109,13 +109,13 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |attached to                                |metadata quality, but generally cannot be  |   the record matches the content of   |                                                   |
 |                                           |verified without manual review of every    |   the item                            |-  This requires manually reviewing an             |
 |*(i.e., there is not a mismatch between an |record (i.e., not scalable for large       |                                       |   individual record to see if values              |
-|item and a record describing a different   |collections)                               |                                       |   largely match the associated item               |
+|item and a record describing a different   |collections).                              |                                       |   largely match the associated item               |
 |item)*                                     |                                           |                                       |                                                   |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |All locally-required fields have values    |By definition, required fields should have |-  Any field required by the governing |**Possible issues to remediate:**                  |
 |                                           |values, but *which* fields are required (or|   schema is not empty                 |                                                   |
 |                                           |available for usage) varies too much among |                                       |-  Any record missing a value in a record          |
-|                                           |schemas to be stated in a standardized way |                                       |   that is deemed “required” by a local or         |
+|                                           |schemas to be stated in a standardized way.|                                       |   that is deemed “required” by a local or         |
 |                                           |                                           |                                       |   relevant consortial schema such as an           |
 |                                           |                                           |                                       |   identifier, language, resource type,            |
 |                                           |                                           |                                       |   etc.                                            |
@@ -123,7 +123,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |All conditionally-required fields have     |By definition, required fields should have |-  Any field required by the governing |**Possible issues to remediate:**                  |
 |values                                     |values, but *which* fields are required (or|   schema under other conditions (e.g.,|                                                   |
 |                                           |available for usage) varies too much among |   “required if available”) is not     |-  Any record missing a value in a record          |
-|                                           |schemas to be stated in a standardized way |   empty in records meeting those      |   that is deemed “required when available”        |
+|                                           |schemas to be stated in a standardized way.|   empty in records meeting those      |   that is deemed “required when available”        |
 |                                           |                                           |   conditions                          |   by a local or relevant consortial               |
 |                                           |                                           |                                       |   schema, e.g., fields labeled by DPLA as         |
 |                                           |                                           |                                       |   “required when available”:                      |
@@ -145,7 +145,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |                                           |considers values and other parts (like     |   qualifier has a qualifier value when|-  Any value missing a qualifier field             |
 |                                           |qualifiers) in tandem and this also        |   content is present                  |   (e.g., for QDC or locally-qualified             |
 |                                           |incorporates non-required fields when they |-  Any field that has a local governing|   metadata fields)                                |
-|                                           |are in usage                               |   schema requiring multiple components|-  Field values missing parts, e.g., if            |
+|                                           |are in usage.                              |   schema requiring multiple components|-  Field values missing parts, e.g., if            |
 |                                           |                                           |   has all parts                       |   both publisher name & publisher location        |
 |                                           |                                           |                                       |   must be entered in a record and only one        |
 |                                           |                                           |                                       |   is present                                      |
@@ -181,7 +181,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |Stray character encoding has been removed  |This is a problem that tends to be         |-  Values do not include character     |**Possible issues to remediate:**                  |
 |                                           |relatively easy to find programmatically   |   encoding strings, mark-up values, or|                                                   |
-|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "&#39;" instead of |
+|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "\&#39;" instead of|
 |                                           |a significant difference when terms are    |   pasted in from another source)      |   an apostrophe                                   |
 |                                           |normalized.                                |                                       |-  LaTex or other technical mark-up, like          |
 |                                           |                                           |                                       |   “.pi./sup +/, p”                                |
@@ -192,19 +192,19 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |replaced/removed and are not present in the|information that is missing, or records    |   meant to be replaced with other     |                                                   |
 |publicly accessible record                 |that need review and may be easy to find   |   text                                |-  The presence of text such as:                   |
 |                                           |programmatically if placeholders are       |                                       |                                                   |
-|                                           |applied consistently in local records      |                                       |   -   YYYY-MM                                     |
+|                                           |applied consistently in local records.     |                                       |   -   YYYY-MM                                     |
 |                                           |                                           |                                       |   -   {{{name}}}                                  |
 |                                           |                                           |                                       |   -   [add info]                                  |
 |                                           |                                           |                                       |   -   <date value>                                |
-|                                           |                                           |                                       |   -   Placeholder text                            |
+|                                           |                                           |                                       |   -   other placeholder text                      |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |Extremely problematic/offensive terms have |Although comprehensive review and revision |-  Any values identified by the        |**Note:**                                          |
 |been removed or handled appropriately      |of records likely falls in the “ideal”     |   institution as priorities to remove |                                                   |
 |                                           |category, it may be useful to think about  |   for remediation are no longer       |-  This will depend on historic local practice,    |
 |                                           |that process iteratively and set           |   present                             |   collection content, and decisions made based on |
 |                                           |first-level local priorities to address    |                                       |   current remediation practices; in some          |
-|                                           |some problems more immediately             |                                       |   locations, this may also be affected by         |
-|                                           |                                           |                                       |   legislation or other policies.                  |
+|                                           |some problems more immediately.            |                                       |   locations, this may also be affected by         |
+|                                           |                                           |                                       |   legislation or other policies                   |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 
 
