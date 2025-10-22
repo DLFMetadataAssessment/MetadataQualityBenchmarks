@@ -4,7 +4,7 @@ Citations
 These sources were referenced directly to compile benchmarks and supplemental information about metadata quality frameworks.
 
 -   Bruce & Hillmann (2004). The Continuum of Metadata Quality: Defining, Expressing, Exploiting. https://www.ecommons.cornell.edu/handle/1813/7895 
--   Bruce & Hillman (2013). Metadata Quality in a Linked Data Context. https://blog.law.cornell.edu/voxpop/2013/01/24/metadata-quality-in-a-linked-data-context/
+-   Bruce & Hillmann (2013). Metadata Quality in a Linked Data Context. https://blog.law.cornell.edu/voxpop/2013/01/24/metadata-quality-in-a-linked-data-context/
 -   FAIR data principles: https://www.go-fair.org/fair-principles/
 -   Graham, P. S. (1990). Quality in cataloguing: Making distinctions. Journal of Academic Librarianship, 16(4), 213-218.
 -   McDonald (2011). 15 Ways to Think About Data Quality (Just for a Start). https://lists.w3.org/Archives/Public/public-lod/2011Apr/0140.html
