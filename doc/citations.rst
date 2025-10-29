@@ -28,6 +28,8 @@ Sources Related to Benchmarking
     -   Ochoa, X., & Duval, E. (2009).  Automatic evaluation of metadata quality in digital repositories.  International Journal on Digital Libraries, 10(2), 67-91.  `doi: 10.1007/s00799-009-0054-4 <https://doi.org/10.1007/s00799-009-0054-4>`_  
     -   Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. Communications of the ACM, 45(4), 211-218.
 
+    -   Shreeves, S. L., Riley, J. & Milewicz, L. (2006).  Moving towards shareable metadata.  First Monday 11(8).  `doi: 10.5210/fm.v11i8.1386 <https://doi.org/10.5210/fm.v11i8.1386>`_
+
 -   Websites:
 
     -   Metadata Assessment Framework and Guidance: https://dlfmetadataassessment.github.io/projects/framework/  
