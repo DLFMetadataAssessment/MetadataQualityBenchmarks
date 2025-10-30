@@ -57,7 +57,7 @@ Minimal-level benchmarks are mostly objective (e.g., a value is present/not pres
 |                                           |                                       |-  Any record that has no value or an  |
 |                                           |                                       |   effectively empty title value (e.g.,|
 |                                           |                                       |   a value consisting exclusively of   |
-|                                           |                                       |   whitespace                          |
+|                                           |                                       |   whitespace)                         |
 +-------------------------------------------+---------------------------------------+---------------------------------------+
 |Value content matches the field type       |-  For fields that have a specific data|**Values that may be correct:**        |
 |                                           |   type, content matches the specified |                                       |
@@ -181,16 +181,16 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |Stray character encoding has been removed  |This is a problem that tends to be         |-  Values do not include character     |**Possible issues to remediate:**                  |
 |                                           |relatively easy to find programmatically   |   encoding strings, mark-up values, or|                                                   |
-|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "\&#39;" instead of|
-|                                           |a significant difference when terms are    |   pasted in from another source)      |   an apostrophe                                   |
+|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "\&\#39\;" instead |
+|                                           |a significant difference when terms are    |   pasted in from another source)      |   of an apostrophe                                |
 |                                           |normalized.                                |                                       |-  LaTex or other technical mark-up, like          |
 |                                           |                                           |                                       |   “.pi./sup +/, p”                                |
 |                                           |                                           |                                       |-  MARC subfields in names or subjects, like “$c”  |
 |                                           |                                           |                                       |   or “\|x”                                        |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |All "placeholder" values have been         |Placeholders can be an indicator of        |-  Values do not include any strings   |**Possible issues to remediate:**                  |
-|replaced/removed and are not present in the|information that is missing, or records    |   meant to be replaced with other     |                                                   |
-|publicly accessible record                 |that need review and may be easy to find   |   text                                |-  The presence of text such as:                   |
+|replaced/removed and are not present in the|information that is missing or records that|   meant to be replaced with other     |                                                   |
+|publicly accessible record                 |need review; they may also be easy to find |   text                                |-  The presence of text such as:                   |
 |                                           |programmatically if placeholders are       |                                       |                                                   |
 |                                           |applied consistently in local records.     |                                       |   -   YYYY-MM                                     |
 |                                           |                                           |                                       |   -   {{{name}}}                                  |
