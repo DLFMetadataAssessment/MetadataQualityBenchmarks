@@ -129,7 +129,7 @@ Consistency
 +===================================================+===================================================+
 |-  Whenever possible, controlled vocabularies or   |-  Rules about "blank" (i.e., non-populated/null)  |
 |   system tools are used to enforce consistency    |   or non-relevant elements are applied            |
-|   within field values                             |   consistently (e.g., left blank, filled with     |
+|   within field values                             |   consistently (e.g., left empty, filled with     |
 |-  The metadata schema is clearly defined and      |   prescribed values like N/A, etc.)               |
 |   applied to every applicable record in the same  |-  Values for the same referent (e.g., a particular|
 |   way                                             |   city, person, etc.) are identical               |
