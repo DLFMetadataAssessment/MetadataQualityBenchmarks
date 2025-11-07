@@ -326,7 +326,7 @@ not every benchmark will apply depending on system requirements.  All applicable
 |                                           |                                       |   -   unexpected word order (e.g., names  |
 |                                           |                                       |       or subjects)                        |
 |                                           |                                       |   -   irregular alphanumeric patterns     |
-|                                           |                                       |       e.g., identifiers)                  |
+|                                           |                                       |       (e.g., identifiers)                 |
 |                                           |                                       |                                           |
 |                                           |                                       |**Values that may be correct:**            |
 |                                           |                                       |                                           |
