@@ -312,9 +312,25 @@ not every benchmark will apply depending on system requirements.  All applicable
 |                                           |                                       |   manual checking or verification against |
 |                                           |                                       |   other sources                           |
 +-------------------------------------------+---------------------------------------+-------------------------------------------+
-|Text fields use appropriate punctuation,   |-  Free-text fields meet any style     |**Values that may be correct:**            |
+|Text fields use appropriate punctuation,   |-  Free-text fields meet any style     |**Possible issues to remediate:**          |
 |grammar, abbreviations, etc.               |   requirements in the local governing |                                           |
-|                                           |   schema                              |-  Text that matches the expected tense    |
+|                                           |   schema                              |-  Text strings (not from controlled       |
+|                                           |                                       |   vocabularies or authorities) that don't |
+|                                           |                                       |   match local formatting requirements,    |
+|                                           |                                       |   e.g.:                                   |
+|                                           |                                       |                                           |
+|                                           |                                       |   -   duplicated or missing punctuation   |
+|                                           |                                       |       and spacing                         |
+|                                           |                                       |   -   variations in capitalization or lack|
+|                                           |                                       |       of capitalization in proper names   |
+|                                           |                                       |   -   unexpected word order (e.g., names  |
+|                                           |                                       |       or subjects)                        |
+|                                           |                                       |   -   irregular alphanumeric patterns     |
+|                                           |                                       |       e.g., identifiers)                  |
+|                                           |                                       |                                           |
+|                                           |                                       |**Values that may be correct:**            |
+|                                           |                                       |                                           |
+|                                           |                                       |-  Text that matches the expected tense    |
 |                                           |                                       |   (e.g., use of present or                |
 |                                           |                                       |   present-progressive tense)              |
 |                                           |                                       |-  Text written in "complete sentences" or |
