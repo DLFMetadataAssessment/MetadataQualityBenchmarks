@@ -20,7 +20,7 @@ Accessibility
 |   communities                                     |   audience or user community                      |
 |-  Infrastructure:                                 |-  Shortened data values -- e.g., abbreviations,   |
 |                                                   |   acronyms, initialisms, etc. -- include          |
-|   -   has a stable source of access (e.g., a      |   definitions, or fuller values for clarification |
+|   -   has a stable source of access (e.g., a      |   definitions or fuller values for clarification  |
 |       service provider guarantee)                 |                                                   |
 |   -   can be maintained with available local      |                                                   |
 |       resources (monetary, technical, personnel,  |                                                   |
@@ -31,8 +31,8 @@ Accessibility
 |   as URIs and OAI endpoints, are stable and and   |                                                   |
 |   reliable                                        |                                                   |
 |-  Metadata is clearly licensed -- with machine-   |                                                   |
-|   and human-readable licenses -- regarding harvest|                                                   |
-|   republishing, and other applicable uses         |                                                   |
+|   and human-readable licenses -- regarding        |                                                   |
+|   harvest, republishing, and other applicable uses|                                                   |
 |-  Metadata records are shareable, preferably as a |                                                   |
 |   bulk download                                   |                                                   |
 |-  Each metadata record has a unique, persistent   |                                                   |
@@ -129,7 +129,7 @@ Consistency
 +===================================================+===================================================+
 |-  Whenever possible, controlled vocabularies or   |-  Rules about "blank" (i.e., non-populated/null)  |
 |   system tools are used to enforce consistency    |   or non-relevant elements are applied            |
-|   within field values                             |   consistently (e.g., left blank, filled with     |
+|   within field values                             |   consistently (e.g., left empty, filled with     |
 |-  The metadata schema is clearly defined and      |   prescribed values like N/A, etc.)               |
 |   applied to every applicable record in the same  |-  Values for the same referent (e.g., a particular|
 |   way                                             |   city, person, etc.) are identical               |
@@ -166,7 +166,6 @@ Provenance
 
 Timeliness
 ----------
-
 +---------------------------------------------------+---------------------------------------------------+
 |TECHNICAL SPECIFICATIONS                           |METADATA VALUES                                    |
 +===================================================+===================================================+
@@ -179,7 +178,8 @@ Timeliness
 |                                                   |       community or audience                       |
 |                                                   |   -   As general practice or industry standards   |
 |                                                   |       shift                                       |
-|                                                   |   -   Information supports current search and     |
-|                                                   |       usage activities for the user community or  |
-|                                                   |       audience                                    |
+|                                                   |                                                   |
+|                                                   |-   Information supports current search and        |
+|                                                   |    usage activities for the user community or     |
+|                                                   |    audience                                       |
 +---------------------------------------------------+---------------------------------------------------+

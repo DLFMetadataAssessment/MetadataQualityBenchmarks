@@ -5,7 +5,7 @@ This documentation provides more specific information about how an organization 
 
 -   *Benchmark:* criterion that must be met
 -   *Metric(s):* mechanism or measurement to determine if a record/value meets the benchmark standard; these may depend on local guidelines and field usage
--   *Examples and Notes:* non-exhaustive list of additional clarification and/or examples of values that may or may not meet a metric
+-   *Examples and Notes:* non-exhaustive list of additional clarifications and/or examples of values that may or may not meet a metric
 
 In this model, the benchmark and metrics set the standard (i.e., the criteria that must be met to qualify for that quality level) and the examples show some ways that the standard might be applied for different local circumstances.  Also note that minimal and ideal levels are clearly defined, while all intermediary benchmarking stages are left up to local organizations.  The benchmarks in the “suggested” section describe suggested priorities for organizations setting “better-than-minimal” benchmarks for their metadata that fall between minimal and ideal.
 
@@ -68,7 +68,7 @@ Minimal-level benchmarks are mostly objective (e.g., a value is present/not pres
 |                                           |                                       |-  Any record that has no value or an  |
 |                                           |                                       |   effectively empty title value (e.g.,|
 |                                           |                                       |   a value consisting exclusively of   |
-|                                           |                                       |   whitespace                          |
+|                                           |                                       |   whitespace)                         |
 +-------------------------------------------+---------------------------------------+---------------------------------------+
 |Value content matches the field type       |-  For fields that have a specific data|**Values that may be correct:**        |
 |                                           |   type, content matches the specified |                                       |
@@ -120,13 +120,13 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |attached to                                |metadata quality, but generally cannot be  |   the record matches the content of   |                                                   |
 |                                           |verified without manual review of every    |   the item                            |-  This requires manually reviewing an             |
 |*(i.e., there is not a mismatch between an |record (i.e., not scalable for large       |                                       |   individual record to see if values              |
-|item and a record describing a different   |collections)                               |                                       |   largely match the associated item               |
+|item and a record describing a different   |collections).                              |                                       |   largely match the associated item               |
 |item)*                                     |                                           |                                       |                                                   |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |All locally-required fields have values    |By definition, required fields should have |-  Any field required by the governing |**Possible issues to remediate:**                  |
 |                                           |values, but *which* fields are required (or|   schema is not empty                 |                                                   |
 |                                           |available for usage) varies too much among |                                       |-  Any record missing a value in a record          |
-|                                           |schemas to be stated in a standardized way |                                       |   that is deemed “required” by a local or         |
+|                                           |schemas to be stated in a standardized way.|                                       |   that is deemed “required” by a local or         |
 |                                           |                                           |                                       |   relevant consortial schema such as an           |
 |                                           |                                           |                                       |   identifier, language, resource type,            |
 |                                           |                                           |                                       |   etc.                                            |
@@ -134,7 +134,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |All conditionally-required fields have     |By definition, required fields should have |-  Any field required by the governing |**Possible issues to remediate:**                  |
 |values                                     |values, but *which* fields are required (or|   schema under other conditions (e.g.,|                                                   |
 |                                           |available for usage) varies too much among |   “required if available”) is not     |-  Any record missing a value in a record          |
-|                                           |schemas to be stated in a standardized way |   empty in records meeting those      |   that is deemed “required when available”        |
+|                                           |schemas to be stated in a standardized way.|   empty in records meeting those      |   that is deemed “required when available”        |
 |                                           |                                           |   conditions                          |   by a local or relevant consortial               |
 |                                           |                                           |                                       |   schema, e.g., fields labeled by DPLA as         |
 |                                           |                                           |                                       |   “required when available”:                      |
@@ -156,7 +156,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |                                           |considers values and other parts (like     |   qualifier has a qualifier value when|-  Any value missing a qualifier field             |
 |                                           |qualifiers) in tandem and this also        |   content is present                  |   (e.g., for QDC or locally-qualified             |
 |                                           |incorporates non-required fields when they |-  Any field that has a local governing|   metadata fields)                                |
-|                                           |are in usage                               |   schema requiring multiple components|-  Field values missing parts, e.g., if            |
+|                                           |are in usage.                              |   schema requiring multiple components|-  Field values missing parts, e.g., if            |
 |                                           |                                           |   has all parts                       |   both publisher name & publisher location        |
 |                                           |                                           |                                       |   must be entered in a record and only one        |
 |                                           |                                           |                                       |   is present                                      |
@@ -165,7 +165,7 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 |                                           |only values that can help collocate related|   used by the governing schema has a  |                                                   |
 |                                           |items across collections (including        |   value (e.g., subject, keyword,      |-  Terms from a local or general thesaurus,        |
 |                                           |aggregations, like DPLA, Europeana, etc.)  |   genre, etc.)                        |   like LCSH                                       |
-|                                           |more braodly by topic.  This also makes    |                                       |-  Subjects from a specialized list or             |
+|                                           |more broadly by topic.  This also makes    |                                       |-  Subjects from a specialized list or             |
 |                                           |subject-based values a good candidate for  |                                       |   thesaurus like MeSH, the Art and                |
 |                                           |review and normalization, if needed.       |                                       |   Architecture Thesaurus, LC Medium of            |
 |                                           |                                           |                                       |   Performance Terms, Chenhall's                   |
@@ -192,30 +192,30 @@ some subjective elements; suggested benchmarks are intended to be adjusted as ne
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |Stray character encoding has been removed  |This is a problem that tends to be         |-  Values do not include character     |**Possible issues to remediate:**                  |
 |                                           |relatively easy to find programmatically   |   encoding strings, mark-up values, or|                                                   |
-|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "&#39;" instead of |
-|                                           |a significant difference when terms are    |   pasted in from another source)      |   an apostrophe                                   |
+|                                           |and, depending on string matching, can make|   other non-displaying text (usually  |-  PDF character encoding, like "\&\#39\;" instead |
+|                                           |a significant difference when terms are    |   pasted in from another source)      |   of an apostrophe                                |
 |                                           |normalized.                                |                                       |-  LaTex or other technical mark-up, like          |
 |                                           |                                           |                                       |   “.pi./sup +/, p”                                |
 |                                           |                                           |                                       |-  MARC subfields in names or subjects, like “$c”  |
 |                                           |                                           |                                       |   or “\|x”                                        |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |All "placeholder" values have been         |Placeholders can be an indicator of        |-  Values do not include any strings   |**Possible issues to remediate:**                  |
-|replaced/removed and are not present in the|information that is missing, or records    |   meant to be replaced with other     |                                                   |
-|publicly accessible record                 |that need review and may be easy to find   |   text                                |-  The presence of text such as:                   |
+|replaced/removed and are not present in the|information that is missing or records that|   meant to be replaced with other     |                                                   |
+|publicly accessible record                 |need review; they may also be easy to find |   text                                |-  The presence of text such as:                   |
 |                                           |programmatically if placeholders are       |                                       |                                                   |
-|                                           |applied consistently in local records      |                                       |   -   YYYY-MM                                     |
+|                                           |applied consistently in local records.     |                                       |   -   YYYY-MM                                     |
 |                                           |                                           |                                       |   -   {{{name}}}                                  |
 |                                           |                                           |                                       |   -   [add info]                                  |
 |                                           |                                           |                                       |   -   <date value>                                |
-|                                           |                                           |                                       |   -   Placeholder text                            |
+|                                           |                                           |                                       |   -   other placeholder text                      |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 |Extremely problematic/offensive terms have |Although comprehensive review and revision |-  Any values identified by the        |**Note:**                                          |
 |been removed or handled appropriately      |of records likely falls in the “ideal”     |   institution as priorities to remove |                                                   |
 |                                           |category, it may be useful to think about  |   for remediation are no longer       |-  This will depend on historic local practice,    |
 |                                           |that process iteratively and set           |   present                             |   collection content, and decisions made based on |
 |                                           |first-level local priorities to address    |                                       |   current remediation practices; in some          |
-|                                           |some problems more immediately             |                                       |   locations, this may also be affected by         |
-|                                           |                                           |                                       |   legislation or other policies.                  |
+|                                           |some problems more immediately.            |                                       |   locations, this may also be affected by         |
+|                                           |                                           |                                       |   legislation or other policies                   |
 +-------------------------------------------+-------------------------------------------+---------------------------------------+---------------------------------------------------+
 
 
@@ -323,9 +323,25 @@ not every benchmark will apply depending on system requirements.  All applicable
 |                                           |                                       |   manual checking or verification against |
 |                                           |                                       |   other sources                           |
 +-------------------------------------------+---------------------------------------+-------------------------------------------+
-|Text fields use appropriate punctuation,   |-  Free-text fields meet any style     |**Values that may be correct:**            |
+|Text fields use appropriate punctuation,   |-  Free-text fields meet any style     |**Possible issues to remediate:**          |
 |grammar, abbreviations, etc.               |   requirements in the local governing |                                           |
-|                                           |   schema                              |-  Text that matches the expected tense    |
+|                                           |   schema                              |-  Text strings (not from controlled       |
+|                                           |                                       |   vocabularies or authorities) that don't |
+|                                           |                                       |   match local formatting requirements,    |
+|                                           |                                       |   e.g.:                                   |
+|                                           |                                       |                                           |
+|                                           |                                       |   -   duplicated or missing punctuation   |
+|                                           |                                       |       and spacing                         |
+|                                           |                                       |   -   variations in capitalization or lack|
+|                                           |                                       |       of capitalization in proper names   |
+|                                           |                                       |   -   unexpected word order (e.g., names  |
+|                                           |                                       |       or subjects)                        |
+|                                           |                                       |   -   irregular alphanumeric patterns     |
+|                                           |                                       |       (e.g., identifiers)                 |
+|                                           |                                       |                                           |
+|                                           |                                       |**Values that may be correct:**            |
+|                                           |                                       |                                           |
+|                                           |                                       |-  Text that matches the expected tense    |
 |                                           |                                       |   (e.g., use of present or                |
 |                                           |                                       |   present-progressive tense)              |
 |                                           |                                       |-  Text written in "complete sentences" or |

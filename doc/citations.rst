@@ -9,7 +9,7 @@ Citations
 These sources were referenced directly to compile benchmarks and supplemental information about metadata quality frameworks.
 
 -   Bruce & Hillmann (2004). The Continuum of Metadata Quality: Defining, Expressing, Exploiting. https://www.ecommons.cornell.edu/handle/1813/7895 
--   Bruce & Hillman (2013). Metadata Quality in a Linked Data Context. https://blog.law.cornell.edu/voxpop/2013/01/24/metadata-quality-in-a-linked-data-context/
+-   Bruce & Hillmann (2013). Metadata Quality in a Linked Data Context. https://blog.law.cornell.edu/voxpop/2013/01/24/metadata-quality-in-a-linked-data-context/
 -   FAIR data principles: https://www.go-fair.org/fair-principles/
 -   Graham, P. S. (1990). Quality in cataloguing: Making distinctions. Journal of Academic Librarianship, 16(4), 213-218.
 -   McDonald (2011). 15 Ways to Think About Data Quality (Just for a Start). https://lists.w3.org/Archives/Public/public-lod/2011Apr/0140.html
@@ -28,24 +28,53 @@ Sources Related to Benchmarking
 
 -   Papers:
 
-    -   Ochoa, X., & Duval, E. (2009).  Automatic evaluation of metadata quality in digital repositories.  International Journal on Digital Libraries, 10(2), 67-91.  doi: 10.1007/s00799-009-0054-4  
+    -   Ochoa, X., & Duval, E. (2009).  Automatic evaluation of metadata quality in digital repositories.  International Journal on Digital Libraries, 10(2), 67-91.  `doi: 10.1007/s00799-009-0054-4 <https://doi.org/10.1007/s00799-009-0054-4>`_  
     -   Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. Communications of the ACM, 45(4), 211-218.
+
+    -   Shreeves, S. L., Riley, J. & Milewicz, L. (2006).  Moving towards shareable metadata.  First Monday 11(8).  `doi: 10.5210/fm.v11i8.1386 <https://doi.org/10.5210/fm.v11i8.1386>`_
 
 -   Websites:
 
-    -   *Metadata Assessment Framework and Guidance* (https://dlfmetadataassessment.github.io/projects/framework/) -- Good starting point for assessment with general information specifically related to metadata based on the Bruce/Hillmann quality metrics.
+    -   Metadata Assessment Framework and Guidance: https://dlfmetadataassessment.github.io/projects/framework/  
+
+            Good starting point for assessment with general information specifically related to metadata based on the Bruce/Hillmann quality metrics.
+
     -   “Quality” tiers based on user functionality for Europeana: https://pro.europeana.eu/post/publishing-framework
+
+            From site: "To help our partners understand what we mean by ’quality’, the Publishing Framework 
+            outlines different layers for content and metadata, which we refer to as ‘tiers.’ The content 
+            tiers were developed in 2015 and the metadata tiers added in 2019."
+    
     -   What is Metadata Assessment [blog], https://www.diglib.org/what-is-metadata-assessment/
-    -   Case Studies: Metadata Assessment [blog], https://www.diglib.org/case-studies-metadata-assessment/ 
+    
+            General introduction to metadata assessment and why it is needed, primarily intended for
+            non-experts or metadata specialists who are new to assessment and quality control.
+    
+    -   Case Studies: Metadata Assessment [blog], https://www.diglib.org/case-studies-metadata-assessment/
+    
+            Descriptive examples from three universities with digital collections of different sizes explaining
+            how each organization assesses the seven Bruce/Hillmann framework quality aspects.
+    
     -   Zotero library of resources about metadata assessment: https://www.zotero.org/groups/488224/metadata_assessment
+    
+            Ongoing collection of citations and links for publications, presentations, and similar resources related to
+            metadata quality and assessment.
 
 
 **Non-Library Resources**
 
--   *“What is Benchmarking and Why is it Important?”* (https://www.inspireone.in/what-is-benchmarking-why-is-it-important/) -- Brief overview of benchmarking and its purpose, based on business concepts; this is helpful to understand the general ideas.
--   *“IT Benchmarking Explained: How to Assess Your IT Efforts”* (https://www.bmc.com/blogs/it-benchmarking-metrics/) -- More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; this is helpful because software concepts are more closely aligned to digital library software/metadata.
+-   “IT Benchmarking Explained: How to Assess Your IT Efforts”: https://www.bmc.com/blogs/it-benchmarking-metrics/
+
+        More specific overview of benchmark processes applied to software and IT practice with examples and references to more information; 
+        this is helpful because software concepts are more closely aligned to digital library software/metadata.
+
 -   What is the Purpose of Benchmarking?: https://www.sixsigmadaily.com/what-is-the-purpose-of-benchmarking/
+
+        Very brief introductory description of types of benchmarking and steps.
+
 -   Understanding the Purpose of Benchmarking: https://www.isixsigma.com/benchmarking/understanding-purpose-and-use-benchmarking/
+
+        General overview of benchmarking steps and things to consider, with references to benchmarking in specific industries.
 
 
 
@@ -74,3 +103,10 @@ Sources Related to UX/UI
 -   Surveying the Landscape: Use and Usability Assessment of Digital Libraries [White Paper]: https://osf.io/uc8b3
 -   Digital Libraries User Personas Best Practices: https://osf.io/wpb8q/
 -   Digital Content Reuse Assessment Framework Toolkit (D-CRAFT): https://reuse.diglib.org/
+
+Sources Related to Non-Descriptive Metadata
+-------------------------------------------
+
+-  PREMIS dictionary for preservation metadata: https://www.loc.gov/standards/premis/
+-  Dublin Core (DCMI) overview of metadata types and resources: https://www.dublincore.org/resources/metadata-basics/
+-  List of metadata standards and resources: https://nkos.dublincore.org/Metadata-standards.html

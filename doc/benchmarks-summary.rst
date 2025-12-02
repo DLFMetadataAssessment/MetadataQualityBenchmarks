@@ -28,7 +28,7 @@ Benchmarks
 **********
 
 This is the summary version, listing only the individual benchmarks, organized according to the
-various aspects a metadata manager might review or verify in a record.  See the :doc:`Full Benchmarks </benchmarks-full>` 
+various aspects a metadata manager might review or verify in a record.  See the :doc:`Expanded Benchmarks </benchmarks-full>` 
 for more details and examples related to each benchmark.
 The summary is also downloadable as a :download:`PDF file </summary-metadata-benchmarks.pdf>`.
 
@@ -112,7 +112,7 @@ These criteria are focused on the field values specifically -- e.g., string valu
 |       text strings)*                      |   -   *(e.g., MARC subfields that may |-  All values that ought to align with |
 |                                           |       have been pasted in)*           |   standards conform to applicable     |
 |-  No values exceed applicable system      |                                       |   vocabularies or rules               |
-|   character limits                        |-  All "placeholder values have been   |                                       |
+|   character limits                        |-  All "placeholder" values have been  |                                       |
 |                                           |   replaced/removed and are not present|   -   *(e.g., names, dates, locations,|
 |-  There is no text encoding that "breaks" |   in the publicly accessible record   |       subjects, etc.)*                |
 |   records                                 |                                       |                                       |
@@ -120,7 +120,7 @@ These criteria are focused on the field values specifically -- e.g., string valu
 |   -   *(i.e., records are not prevented   |       YYYY-MM or notes intended to be |                                       |
 |       from being displayed)*              |       removed by editors)*            |-  Text fields use appropriate         |
 |                                           |                                       |   punctuation, grammar, abbreviations,|
-|                                           |                                       |   etc.)*                              |
+|                                           |                                       |   etc.                                |
 +-------------------------------------------+---------------------------------------+---------------------------------------+
 
 
