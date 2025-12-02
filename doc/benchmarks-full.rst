@@ -11,10 +11,21 @@ In this model, the benchmark and metrics set the standard (i.e., the criteria th
 
 -   General benchmarks usage:
 
-    -   Each criterion is intended to be “system agnostic” but some may not apply to every situation (e.g., local field requirements)
-    -   Criteria are binary -- i.e., the set being evaluated must meet all points or it does not meet the benchmarking standard
-    -   These benchmarks focus solely on the quality of metadata entry, not the quality of information (i.e., available information is all entered correctly, although we might wish that additional information is known about an item to improve the record)
-    -   This framework is intended to be scalable (it is written in the context of 1 record, but could apply across a collection, resource type, or an entire system)
+    -   Each criterion is intended to be “system agnostic” but some may not apply to 
+        every situation (e.g., local field requirements)
+    -   Criteria are binary -- i.e., the set being evaluated must meet all points or 
+        it does not meet the benchmarking standard
+    -   Benchmarks are cumulative -- i.e., records must meet all the criteria at the chosen 
+        level and the lower levels, if relevant
+    -   These benchmarks focus solely on the quality of metadata entry, not the quality 
+        of information -- i.e., available information is all entered correctly, although 
+        we might wish that additional information is known about an item to improve the record
+    -   This framework is intended to be scalable (it is written in the context of 1 record, 
+        but could apply across a collection, resource type, or an entire system)
+    -   Minimal criteria apply in all cases; suggested criteria do not rise to the level 
+        of “absolute minimum” but are suggested as priorities for "better-than-minimal" 
+        based on our research and experience; ideal criteria tend to be more subjective and may not apply in every situation
+
                              
 
 
