@@ -1,6 +1,11 @@
-=========
+=======
+Sources
+=======
+This (non-comprehensive) list of references includes a wide array of literature and other resources that may be helpful for organizations that are thinking about benchmarking projects, such as papers and articles related to metadata quality work and benchmarking processes within and outside the library sphere.  We have also tried to include links to resources that may support specific goals that organizations may have for metadata quality or user interactions more generally.
+
+---------
 Citations
-=========
+---------
 These sources were referenced directly to compile benchmarks and supplemental information about metadata quality frameworks.
 
 -   Bruce & Hillmann (2004). The Continuum of Metadata Quality: Defining, Expressing, Exploiting. https://www.ecommons.cornell.edu/handle/1813/7895 
@@ -15,8 +20,6 @@ These sources were referenced directly to compile benchmarks and supplemental in
 ***************
 Other Resources
 ***************
-This (non-comprehensive) list of references includes a wide array of literature and other resources that may be helpful for organizations that are thinking about benchmarking projects, such as papers and articles related to metadata quality work and benchmarking processes within and outside the library sphere.  We have also tried to include links to resources that may support specific goals that organizations may have for metadata quality or user interactions more generally.
-
 
 Sources Related to Benchmarking
 ===============================
