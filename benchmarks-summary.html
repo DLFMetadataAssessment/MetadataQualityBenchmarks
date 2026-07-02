@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary Benchmarks &mdash; Metadata Quality Benchmarks 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=e2848512" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Expanded Benchmarks" href="benchmarks-full.html" />
+    <link rel="prev" title="Metadata Quality Benchmarks" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Metadata Quality Benchmarks
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Metadata Benchmarks</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Summary Benchmarks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#benchmarks">Benchmarks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#content-relevance">Content relevance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#existence-of-values">Existence of values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#content-of-values">Content of values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#community-audience">Community/audience</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks-full.html">Expanded Benchmarks</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Supplementary Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="starting-questions.html">Questions to Answer Before Benchmarking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quality-metrics.html">Types of Quality Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="citations.html">Sources</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About This Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About the Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Metadata Quality Benchmarks</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Summary Benchmarks</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/benchmarks-summary.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="summary-benchmarks">
+<h1>Summary Benchmarks<a class="headerlink" href="#summary-benchmarks" title="Link to this heading"></a></h1>
+<p>The purpose of these criteria is to suggest an “industry standard” for absolute
+minimum requirements and a “gold standard” for the quality of a descriptive metadata record.</p>
+<p>Usage:</p>
+<ul class="simple">
+<li><p>Each criterion is intended to be “system agnostic” but some may not apply to
+every situation (e.g., local field requirements)</p></li>
+<li><p>Criteria are binary – i.e., the set being evaluated must meet all points or
+it does not meet the benchmarking standard</p></li>
+<li><p>Benchmarks are cumulative – i.e., records must meet all the criteria at the chosen
+level and the lower levels, if relevant</p></li>
+<li><p>These benchmarks focus solely on the quality of metadata entry, not the quality
+of information – i.e., available information is all entered correctly, although
+we might wish that additional information is known about an item to improve the record</p></li>
+<li><p>This framework is intended to be scalable (it is written in the context of 1 record,
+but could apply across a collection, resource type, or an entire system)</p></li>
+<li><p>Minimal criteria apply in all cases; suggested criteria do not rise to the level
+of “absolute minimum” but are suggested as priorities for “better-than-minimal”
+based on our research and experience; ideal criteria tend to be more subjective and may not apply in every situation</p></li>
+</ul>
+<section id="benchmarks">
+<h2>Benchmarks<a class="headerlink" href="#benchmarks" title="Link to this heading"></a></h2>
+<p>This is the summary version, listing only the individual benchmarks, organized according to the
+various aspects a metadata manager might review or verify in a record.  See the <a class="reference internal" href="benchmarks-full.html"><span class="doc">Expanded Benchmarks</span></a>
+for more details and examples related to each benchmark.
+The summary is also downloadable as a <a class="reference download internal" download="" href="_downloads/ab03654181808860ab2e8b1cf65f738d/summary-metadata-benchmarks.pdf"><code class="xref download docutils literal notranslate"><span class="pre">PDF</span> <span class="pre">file</span></code></a>.</p>
+<section id="content-relevance">
+<h3>Content relevance<a class="headerlink" href="#content-relevance" title="Link to this heading"></a></h3>
+<p>These criteria are about the relationship between the record and the item.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Minimal</p></th>
+<th class="head"><p>Suggested</p></th>
+<th class="head"><p>Ideal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul>
+<li><p>The record is specific/scoped correctly</p>
+<blockquote>
+<div><p><em>(e.g., records for single
+manuscripts are not described as
+whole collections of materials or
+vice versa)</em></p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>The record describes the item that
+it is attached to</p></li>
+</ul>
+</td>
+<td><ul>
+<li><p>All metadata values align with
+expectations for the material type</p>
+<blockquote>
+<div><p><em>(e.g., language use for text
+vs. images; theses/dissertations
+have creator or author values)</em></p>
+</div></blockquote>
+</li>
+<li><p>When applicable, relationships
+between items and parent collections
+are clearly represented</p></li>
+<li><p>All information not specific to the
+item has been removed</p>
+<blockquote>
+<div><p><em>(e.g., duplicated records
+propagated across a collection
+have been individualized;
+information not appropriate for
+the item type is removed)</em></p>
+</div></blockquote>
+</li>
+<li><p>Administrative/acquisition
+information is appropriately noted
+and/or hidden from the public, if
+applicable</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="existence-of-values">
+<h3>Existence of values<a class="headerlink" href="#existence-of-values" title="Link to this heading"></a></h3>
+<p>These criteria are related to when fields should have values or not (regardless of value formatting or correctness).</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Minimal</p></th>
+<th class="head"><p>Suggested</p></th>
+<th class="head"><p>Ideal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>Every record has a title</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>All locally-required fields have
+values</p></li>
+<li><p>All conditionally-required fields
+have values</p></li>
+<li><p>Fields that require multiple parts
+or qualifiers have all parts</p></li>
+<li><p>Records have some type of subject
+value</p>
+<ul>
+<li><p><em>(e.g., subject, keyword, genre,
+etc.)</em></p></li>
+</ul>
+</li>
+<li><p>A rights statement is present
+(standardized statements preferred)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Relevant recommended/optional fields
+have values</p></li>
+<li><p>All relevant information about the
+item is included</p></li>
+<li><p>Non-required qualifiers or field
+parts are added to provide enhanced
+information or functionality</p></li>
+<li><p>“Null” values are used consistently,
+according to local guidelines</p>
+<ul>
+<li><p><em>(e.g., N/A, unknown, leave
+blank, etc.)</em></p></li>
+</ul>
+</li>
+<li><p>Fields/subfields that cannot be
+repeated occur only once</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="content-of-values">
+<h3>Content of values<a class="headerlink" href="#content-of-values" title="Link to this heading"></a></h3>
+<p>These criteria are focused on the field values specifically – e.g., string values, formatting, etc.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Minimal</p></th>
+<th class="head"><p>Suggested</p></th>
+<th class="head"><p>Ideal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>Value content matches the field type</p>
+<ul>
+<li><p><em>(e.g., “date” fields do not contain
+text strings)</em></p></li>
+</ul>
+</li>
+<li><p>No values exceed applicable system
+character limits</p></li>
+<li><p>There is no text encoding that “breaks”
+records</p>
+<ul>
+<li><p><em>(i.e., records are not prevented
+from being displayed)</em></p></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Stray character encoding has been
+removed</p>
+<ul>
+<li><p><em>(e.g., MARC subfields that may
+have been pasted in)</em></p></li>
+</ul>
+</li>
+<li><p>All “placeholder” values have been
+replaced/removed and are not present
+in the publicly accessible record</p>
+<ul>
+<li><p><em>(e.g., {{{name}}} or
+YYYY-MM or notes intended to be
+removed by editors)</em></p></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>All values are appropriate lengths
+for their fields</p></li>
+<li><p>All values that ought to align with
+standards conform to applicable
+vocabularies or rules</p>
+<ul>
+<li><p><em>(e.g., names, dates, locations,
+subjects, etc.)</em></p></li>
+</ul>
+</li>
+<li><p>All values are spelled correctly</p></li>
+<li><p>Text fields use appropriate
+punctuation, grammar, abbreviations,
+etc.</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="community-audience">
+<h3>Community/audience<a class="headerlink" href="#community-audience" title="Link to this heading"></a></h3>
+<p>These criteria describe how metadata records reflect the needs of users.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Minimal</p></th>
+<th class="head"><p>Suggested</p></th>
+<th class="head"><p>Ideal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><ul class="simple">
+<li><p>Extremely problematic/offensive
+terms have been removed or handled
+appropriately</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Reading level &amp; language use is
+appropriate for all (relevant)
+communities or audiences</p>
+<ul>
+<li><p><em>(e.g., collections intended for
+students match their reading
+level; collections intended for
+scientific research use
+technical terminology)</em></p></li>
+</ul>
+</li>
+<li><p>Vocabulary usage aligns with the
+needs of the audience and material
+type</p>
+<ul>
+<li><p><em>(e.g., technical vocabularies
+are used for scientific
+materials, but not for
+collections intended for
+amateurs)</em></p></li>
+</ul>
+</li>
+<li><p>Values connected to interface
+functionality are correct</p>
+<ul>
+<li><p><em>(e.g., field values used for
+browsing or filtering search
+results)</em></p></li>
+</ul>
+</li>
+<li><p>Record language has been
+evaluated/updated to align with
+best practices related to reparative
+metadata, inclusive language, etc.</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Metadata Quality Benchmarks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="benchmarks-full.html" class="btn btn-neutral float-right" title="Expanded Benchmarks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright DLF-AIG Metadata Assessment Working Group.  This work is licensed under Creative Commons Attribution 4.0 International.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

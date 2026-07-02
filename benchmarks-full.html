@@ -1,0 +1,934 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expanded Benchmarks &mdash; Metadata Quality Benchmarks 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=e2848512" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Questions to Answer Before Benchmarking" href="starting-questions.html" />
+    <link rel="prev" title="Summary Benchmarks" href="benchmarks-summary.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Metadata Quality Benchmarks
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Metadata Benchmarks</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="benchmarks-summary.html">Summary Benchmarks</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Expanded Benchmarks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#minimal-benchmarks">Minimal Benchmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#suggested-benchmarks">Suggested Benchmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ideal-benchmarks">Ideal Benchmarks</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Supplementary Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="starting-questions.html">Questions to Answer Before Benchmarking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quality-metrics.html">Types of Quality Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="citations.html">Sources</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About This Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About the Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Metadata Quality Benchmarks</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Expanded Benchmarks</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/benchmarks-full.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="expanded-benchmarks">
+<h1>Expanded Benchmarks<a class="headerlink" href="#expanded-benchmarks" title="Link to this heading"></a></h1>
+<p>This documentation provides more specific information about how an organization might apply the benchmarks or determine the level of quality for records and collections of metadata.</p>
+<ul class="simple">
+<li><p><em>Benchmark:</em> criterion that must be met</p></li>
+<li><p><em>Metric(s):</em> mechanism or measurement to determine if a record/value meets the benchmark standard; these may depend on local guidelines and field usage</p></li>
+<li><p><em>Examples and Notes:</em> non-exhaustive list of additional clarifications and/or examples of values that may or may not meet a metric</p></li>
+</ul>
+<p>In this model, the benchmark and metrics set the standard (i.e., the criteria that must be met to qualify for that quality level) and the examples show some ways that the standard might be applied for different local circumstances.  Also note that minimal and ideal levels are clearly defined, while all intermediary benchmarking stages are left up to local organizations.  The benchmarks in the “suggested” section describe suggested priorities for organizations setting “better-than-minimal” benchmarks for their metadata that fall between minimal and ideal.</p>
+<ul class="simple">
+<li><p>General benchmarks usage:</p>
+<ul>
+<li><p>Each criterion is intended to be “system agnostic” but some may not apply to
+every situation (e.g., local field requirements)</p></li>
+<li><p>Criteria are binary – i.e., the set being evaluated must meet all points or
+it does not meet the benchmarking standard</p></li>
+<li><p>Benchmarks are cumulative – i.e., records must meet all the criteria at the chosen
+level and the lower levels, if relevant</p></li>
+<li><p>These benchmarks focus solely on the quality of metadata entry, not the quality
+of information – i.e., available information is all entered correctly, although
+we might wish that additional information is known about an item to improve the record</p></li>
+<li><p>This framework is intended to be scalable (it is written in the context of 1 record,
+but could apply across a collection, resource type, or an entire system)</p></li>
+<li><p>Minimal criteria apply in all cases; suggested criteria do not rise to the level
+of “absolute minimum” but are suggested as priorities for “better-than-minimal”
+based on our research and experience; ideal criteria tend to be more subjective and may not apply in every situation</p></li>
+</ul>
+</li>
+</ul>
+<section id="minimal-benchmarks">
+<h2>Minimal Benchmarks<a class="headerlink" href="#minimal-benchmarks" title="Link to this heading"></a></h2>
+<p>Minimal-level benchmarks are mostly objective (e.g., a value is present/not present) and should apply to all records</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Benchmark</p></th>
+<th class="head"><p>Metrics</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td rowspan="2"><p>The record is specific/scoped correctly</p></td>
+<td><ul class="simple">
+<li><p>Values in a record for an individual
+item (e.g., a monograph, photograph,
+newsletter issue, etc.) describe
+only that item rather than multiple
+collection-level or serial-level
+items</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Name(s) of the people or
+organizations who authored a text or
+issue but not all of the authors
+from a collection of texts</p></li>
+<li><p>A publisher value that matches an
+individual serial issue rather than
+multiple possible publisher values
+from an entire serial set</p></li>
+<li><p>Subject-type values or descriptions
+of the content that reflect the item
+rather than general collection-level
+descriptions or subjects describing
+multiple items</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><ul class="simple">
+<li><p>Values in a record describing
+multiple items, or a collection of
+items, reflect all of the content
+attached to it</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to review:</strong></p>
+<ul class="simple">
+<li><p>Multiple records that all have the
+same title and/or description
+(especially if there are a large
+number)</p></li>
+<li><p>Relevant information is absent from
+a collection-level record</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Every record has a title</p></td>
+<td><ul class="simple">
+<li><p>The title field is not empty</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to review:</strong></p>
+<ul class="simple">
+<li><p>Any record that has no value or an
+effectively empty title value (e.g.,
+a value consisting exclusively of
+whitespace)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Value content matches the field type</p></td>
+<td><ul class="simple">
+<li><p>For fields that have a specific data
+type, content matches the specified
+type</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>A field requiring a date entry
+contains a date, e.g., formatted
+YYYY-MM-DD, rather than a text
+string, e.g., sometime in September</p></li>
+<li><p>A field requiring a binary entry
+(e.g., checked/unchecked) does not
+contain an alphanumeric text string
+or other value</p></li>
+<li><p>A field requiring a standard code
+value (e.g., language codes from
+ISO 639-2) does not contain other
+characters</p></li>
+<li><p>A field requiring a numeric value
+does not contain letters or other
+symbols</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>No values exceed applicable system
+character limits</p></td>
+<td><ul class="simple">
+<li><p>No field in a record has more
+characters than any allowable limit</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to review:</strong></p>
+<ul class="simple">
+<li><p>Any value outside of a standard,
+required length (e.g., identifiers)</p></li>
+<li><p>Any value longer than what is
+permitted by a local system on a
+technical level</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>There is no text encoding that “breaks”
+records</p></td>
+<td><ul class="simple">
+<li><p>The record displays publicly without
+error messages</p></li>
+<li><p>The record can be successfully
+edited/saved administratively and
+indexed in the system</p></li>
+</ul>
+</td>
+<td><p><strong>Note:</strong></p>
+<p>This is dependent on local system
+limitations</p>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="suggested-benchmarks">
+<h2>Suggested Benchmarks<a class="headerlink" href="#suggested-benchmarks" title="Link to this heading"></a></h2>
+<p>This category includes suggestions about what ought to be prioritized in local benchmarks to make records “better than minimal,”
+based on research and professional experience (noted in the justification column).  These are mostly objective, but also include
+some subjective elements; suggested benchmarks are intended to be adjusted as needed and applied when applicable according to local requirements.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Benchmark</p></th>
+<th class="head"><p>Justification</p></th>
+<th class="head"><p>Metrics</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>The record describes the item that it is
+attached to</p>
+<p><em>(i.e., there is not a mismatch between an
+item and a record describing a different
+item)</em></p>
+</td>
+<td><p>This is a relatively fundamental need for
+metadata quality, but generally cannot be
+verified without manual review of every
+record (i.e., not scalable for large
+collections).</p></td>
+<td><ul class="simple">
+<li><p>The preponderance of information in
+the record matches the content of
+the item</p></li>
+</ul>
+</td>
+<td><p><strong>Note:</strong></p>
+<ul class="simple">
+<li><p>This requires manually reviewing an
+individual record to see if values
+largely match the associated item</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>All locally-required fields have values</p></td>
+<td><p>By definition, required fields should have
+values, but <em>which</em> fields are required (or
+available for usage) varies too much among
+schemas to be stated in a standardized way.</p></td>
+<td><ul class="simple">
+<li><p>Any field required by the governing
+schema is not empty</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Any record missing a value in a record
+that is deemed “required” by a local or
+relevant consortial schema such as an
+identifier, language, resource type,
+etc.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>All conditionally-required fields have
+values</p></td>
+<td rowspan="2"><p>By definition, required fields should have
+values, but <em>which</em> fields are required (or
+available for usage) varies too much among
+schemas to be stated in a standardized way.</p></td>
+<td><ul class="simple">
+<li><p>Any field required by the governing
+schema under other conditions (e.g.,
+“required if available”) is not
+empty in records meeting those
+conditions</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Any record missing a value in a record
+that is deemed “required when available”
+by a local or relevant consortial
+schema, e.g., fields labeled by DPLA as
+“required when available”:</p>
+<ul>
+<li><p>Collection</p></li>
+<li><p>Language</p></li>
+<li><p>Type</p></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><ul class="simple">
+<li><p>Any field required by the governing
+schema for a specific material type
+is not empty in records for that
+type</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Any record for a resource type that is
+missing a value that is “required for
+&lt;resource type&gt;” by a local or relevant
+consortial schema – e.g., “creator is
+required for ETDs”</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Fields that require multiple parts or
+qualifiers have all parts</p></td>
+<td><p>This is an extension of required field
+values, however, not all assessment
+considers values and other parts (like
+qualifiers) in tandem and this also
+incorporates non-required fields when they
+are in usage.</p></td>
+<td><ul class="simple">
+<li><p>Any field that has a local
+governing schema requiring a
+qualifier has a qualifier value when
+content is present</p></li>
+<li><p>Any field that has a local governing
+schema requiring multiple components
+has all parts</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Any value missing a qualifier field
+(e.g., for QDC or locally-qualified
+metadata fields)</p></li>
+<li><p>Field values missing parts, e.g., if
+both publisher name &amp; publisher location
+must be entered in a record and only one
+is present</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Records have some type of subject value</p></td>
+<td><p>Subject-based fields contain some of the
+only values that can help collocate related
+items across collections (including
+aggregations, like DPLA, Europeana, etc.)
+more broadly by topic.  This also makes
+subject-based values a good candidate for
+review and normalization, if needed.</p></td>
+<td><ul class="simple">
+<li><p>At least one subject-type field
+used by the governing schema has a
+value (e.g., subject, keyword,
+genre, etc.)</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Terms from a local or general thesaurus,
+like LCSH</p></li>
+<li><p>Subjects from a specialized list or
+thesaurus like MeSH, the Art and
+Architecture Thesaurus, LC Medium of
+Performance Terms, Chenhall’s
+Nomenclature, Homosaurus, etc.</p></li>
+<li><p>Genre terms from a local list or
+controlled thesaurus, like the LC
+Genre/Form Terms</p></li>
+<li><p>Keywords relevant to the content of the
+item</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>A rights statement is present</p></td>
+<td><p>Inclusion of rights information is broadly
+encouraged within the digital library
+community.  Standardized rights statements
+were developed through international
+efforts.</p></td>
+<td><ul class="simple">
+<li><p>A value describing rights associated
+with the item is in the record</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>An item has a clearly-defined creative
+commons license listed in the record</p></li>
+<li><p>The record contains a statement
+asserting copyright and/or listing the
+rights holder</p></li>
+<li><p>When possible, a standardized rights
+statement is in the record;
+organizations should consider
+implementing these for shareability
+(see:
+<a class="reference external" href="https://rightsstatements.org/en/documentation/">https://rightsstatements.org/en/documentation/</a>)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Stray character encoding has been removed</p></td>
+<td><p>This is a problem that tends to be
+relatively easy to find programmatically
+and, depending on string matching, can make
+a significant difference when terms are
+normalized.</p></td>
+<td><ul class="simple">
+<li><p>Values do not include character
+encoding strings, mark-up values, or
+other non-displaying text (usually
+pasted in from another source)</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>PDF character encoding, like “&amp;#39;” instead
+of an apostrophe</p></li>
+<li><p>LaTex or other technical mark-up, like
+“.pi./sup +/, p”</p></li>
+<li><p>MARC subfields in names or subjects, like “$c”
+or “|x”</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>All “placeholder” values have been
+replaced/removed and are not present in the
+publicly accessible record</p></td>
+<td><p>Placeholders can be an indicator of
+information that is missing or records that
+need review; they may also be easy to find
+programmatically if placeholders are
+applied consistently in local records.</p></td>
+<td><ul class="simple">
+<li><p>Values do not include any strings
+meant to be replaced with other
+text</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>The presence of text such as:</p>
+<ul>
+<li><p>YYYY-MM</p></li>
+<li><p>{{{name}}}</p></li>
+<li><p>[add info]</p></li>
+<li><p>&lt;date value&gt;</p></li>
+<li><p>other placeholder text</p></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Extremely problematic/offensive terms have
+been removed or handled appropriately</p></td>
+<td><p>Although comprehensive review and revision
+of records likely falls in the “ideal”
+category, it may be useful to think about
+that process iteratively and set
+first-level local priorities to address
+some problems more immediately.</p></td>
+<td><ul class="simple">
+<li><p>Any values identified by the
+institution as priorities to remove
+for remediation are no longer
+present</p></li>
+</ul>
+</td>
+<td><p><strong>Note:</strong></p>
+<ul class="simple">
+<li><p>This will depend on historic local practice,
+collection content, and decisions made based on
+current remediation practices; in some
+locations, this may also be affected by
+legislation or other policies</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ideal-benchmarks">
+<h2>Ideal Benchmarks<a class="headerlink" href="#ideal-benchmarks" title="Link to this heading"></a></h2>
+<p>Ideal-level benchmarks are intended to describe a “perfect” metadata record, i.e.,  if all available information about a specific
+item has been entered correctly, according to local standards.  Many of these benchmarks are more subjective or item-dependent and
+not every benchmark will apply depending on system requirements.  All applicable benchmarks must be met for a record to be “ideal.”</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Benchmark</p></th>
+<th class="head"><p>Metrics</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>All metadata values align with expectations
+for the material type</p></td>
+<td><ul class="simple">
+<li><p>Values in every field align with
+usage guidelines according to the
+local governing schema</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>A creator for a photograph is
+labeled as a photographer and a
+creator for a book is labeled as an
+author</p></li>
+<li><p>A thesis/dissertation has a creator
+value (rather than “unknown”)</p></li>
+<li><p>A published text item has a language
+value (rather than “no language”)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>When applicable, relationships between
+items and parent collections are clearly
+represented</p></td>
+<td><ul class="simple">
+<li><p>Field values reflecting
+relationships are not empty in line
+with the local governing schema</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>“Collection” names (e.g., if this is
+an available field)</p></li>
+<li><p>Notes referencing a larger
+collection or holdings</p></li>
+<li><p>Link(s) to an archival finding aid,
+catalog record, or similar
+documentation for a collection</p></li>
+<li><p>Series title or archival series
+information</p></li>
+<li><p>Relation or source information
+referencing a collection (depending
+on local usage)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>All information not specific to the item
+has been removed</p></td>
+<td><ul class="simple">
+<li><p>Field values do not contain
+collection-level data or other
+information that does not apply to
+the specific item</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Duplicated information propagated across
+individual records in a collection –
+titles, creators, subjects, etc.</p></li>
+<li><p>Any information not appropriate to the
+item type</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Administrative/acquisition information is
+appropriately noted and/or hidden from the
+public, if applicable</p></td>
+<td><ul class="simple">
+<li><p>Records contain information related
+to the provenance, preservation,
+and/or administration of items in
+accordance with the local governing
+schema</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Donor-related information (e.g., who
+donated the item and when) is present</p></li>
+<li><p>Conservation-related information (e.g.,
+which staff member treated an item, when
+and how it was treated, etc.) is present</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Relevant recommended/optional fields have
+values</p></td>
+<td><ul class="simple">
+<li><p>Recommended and optional fields are
+not empty when information is
+available</p></li>
+</ul>
+</td>
+<td rowspan="3"><p><strong>Note:</strong></p>
+<ul class="simple">
+<li><p>This requires comparing an individual
+record to the item and any available
+supplementary information sources (e.g.,
+catalog records, finding aids,
+handwritten notes in physical
+collections, information provided by a
+donor or subject expert, etc.)
+to determine if values have been entered</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>All relevant information about the item is
+included</p></td>
+<td><ul class="simple">
+<li><p>Values accurately represent complete
+field information according to local
+guidelines</p></li>
+<li><p>When applicable, multiple entries
+(i.e., all relevant entries) are
+included in a field</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Non-required qualifiers or field parts are
+added to provide enhanced information or
+functionality</p></td>
+<td><ul class="simple">
+<li><p>Qualifiers and field part values are
+not empty when information is
+available</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>“Null” values are used consistently,
+according to local guidelines</p></td>
+<td><ul class="simple">
+<li><p>Unused/non-populated fields are
+empty or contain specific required
+text based on the local governing
+schema</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>N/A, Not Applicable, Unknown (or
+similar) – if the schema requires one
+of these values</p></li>
+<li><p>Blank entry – if the schema requires
+unused fields to be left blank</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Fields/subfields that cannot be repeated
+occur only once</p></td>
+<td><ul class="simple">
+<li><p>No non-repeatable fields occur
+multiple times in a record</p></li>
+<li><p>No qualifier or field part that is
+non-repeatable occurs multiple times
+in a record</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>A record for a single item has multiple
+formats</p></li>
+<li><p>A record has multiple “creation” dates
+if only one is allowed</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>All values are appropriate lengths for
+their fields</p></td>
+<td><ul class="simple">
+<li><p>The total number of characters
+and/or number of “tokens” (words or
+space-separated components) in each
+field value matches expectations of
+the local governing schema</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Extremely short values (e.g., subjects
+that are only 1 or 2 characters long)</p></li>
+<li><p>Extremely long values (e.g., single name
+values more than 1,000 characters long)</p></li>
+</ul>
+<p><strong>Note:</strong></p>
+<ul class="simple">
+<li><p>Expected lengths will depend on local
+requirements, e.g., whether a field is
+repeatable (one term per entry) or if
+there is a single field with multiple
+separated terms</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>All values that ought to align with
+standards conform to applicable
+vocabularies or rules</p></td>
+<td><ul class="simple">
+<li><p>Formatting for every field that
+aligns with a controlled vocabulary
+or standard is valid according to
+the relevant authority</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct</strong></p>
+<ul class="simple">
+<li><p>Date formatting matches EDTF, W3C, or
+other date standard in use</p></li>
+<li><p>Names match LCNAF, VIAF, or other name
+standards in use</p></li>
+<li><p>Locations align with TGM, GeoNames, or
+other location standard in use</p></li>
+<li><p>Subjects match LCSH, AAT, TGM, LCGFT,
+MeSH, or other subject standard(s) in
+use</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>All values are spelled correctly</p></td>
+<td><ul class="simple">
+<li><p>There are no misspelled words</p></li>
+<li><p>Unusual spellings have been checked
+and verified</p></li>
+</ul>
+</td>
+<td><p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><p>If available, a spell-checker may be
+helpful (e.g., in a browser, text
+editor, etc.)</p></li>
+<li><p>Some values – like names – may require
+manual checking or verification against
+other sources</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Text fields use appropriate punctuation,
+grammar, abbreviations, etc.</p></td>
+<td><ul class="simple">
+<li><p>Free-text fields meet any style
+requirements in the local governing
+schema</p></li>
+</ul>
+</td>
+<td><p><strong>Possible issues to remediate:</strong></p>
+<ul class="simple">
+<li><p>Text strings (not from controlled
+vocabularies or authorities) that don’t
+match local formatting requirements,
+e.g.:</p>
+<ul>
+<li><p>duplicated or missing punctuation
+and spacing</p></li>
+<li><p>variations in capitalization or lack
+of capitalization in proper names</p></li>
+<li><p>unexpected word order (e.g., names
+or subjects)</p></li>
+<li><p>irregular alphanumeric patterns
+(e.g., identifiers)</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Text that matches the expected tense
+(e.g., use of present or
+present-progressive tense)</p></li>
+<li><p>Text written in “complete sentences” or
+written out in specific component parts,
+according to local requirements</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Reading level &amp; language use is appropriate
+for all (relevant) communities or audiences</p></td>
+<td><ul class="simple">
+<li><p>If there is a defined user group,
+word choice and metadata values meet
+expectations for the audience</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Collections intended for students do not
+use language above the reading
+grade-level of users</p></li>
+<li><p>Materials intended for scientific
+research have appropriate technical
+terminology or phrasing, based on the
+expectations of the particular field</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Vocabulary usage aligns with the needs of
+the audience and material type</p></td>
+<td><ul class="simple">
+<li><p>If there is a defined user group,
+controlled fields use values in line
+with audience expectations</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Use of MeSH terms in a medical
+collection (or collection intended for
+medical professionals) vs. LCSH or more
+general terms for a non-medical audience</p></li>
+<li><p>Names come from the Union List of Artist
+Names (ULAN) for an art-related
+collection</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Values connected to interface functionality
+work</p></td>
+<td><ul class="simple">
+<li><p>Metadata values associated with more
+complex functionality function as
+intended</p></li>
+</ul>
+</td>
+<td><p><strong>Values that may be correct:</strong></p>
+<ul class="simple">
+<li><p>Fields used locally for filtering
+searches or browsing (e.g., dates,
+subjects, locations, etc.) have values
+that are normalized to collocate
+information based on user selection or
+input</p></li>
+<li><p>Values that become clickable links in
+local systems (e.g., names, resource
+types, genres, etc.) are normalized</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Record language has been evaluated/updated
+to align with best practices related to
+reparative metadata, inclusive language,
+etc.</p></td>
+<td><ul class="simple">
+<li><p>Metadata field usage and values
+align with local best practices</p></li>
+</ul>
+</td>
+<td><p><strong>Note:</strong></p>
+<ul class="simple">
+<li><p>This will depend on historic local
+practice, collection content, and
+decisions made based on current
+remediation practices; in some
+locations, this may also be affected by
+legislation or other policies</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="benchmarks-summary.html" class="btn btn-neutral float-left" title="Summary Benchmarks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="starting-questions.html" class="btn btn-neutral float-right" title="Questions to Answer Before Benchmarking" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright DLF-AIG Metadata Assessment Working Group.  This work is licensed under Creative Commons Attribution 4.0 International.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

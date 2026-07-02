@@ -1,0 +1,431 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Types of Quality Metrics &mdash; Metadata Quality Benchmarks 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=e2848512" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sources" href="citations.html" />
+    <link rel="prev" title="Questions to Answer Before Benchmarking" href="starting-questions.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Metadata Quality Benchmarks
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Metadata Benchmarks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks-summary.html">Summary Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks-full.html">Expanded Benchmarks</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Supplementary Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="starting-questions.html">Questions to Answer Before Benchmarking</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Types of Quality Metrics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#accessibility">Accessibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#accuracy">Accuracy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#completeness">Completeness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conformance-to-expectations">Conformance to expectations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consistency">Consistency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#provenance">Provenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#timeliness">Timeliness</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="citations.html">Sources</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About This Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About the Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Metadata Quality Benchmarks</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Types of Quality Metrics</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/quality-metrics.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="types-of-quality-metrics">
+<h1>Types of Quality Metrics<a class="headerlink" href="#types-of-quality-metrics" title="Link to this heading"></a></h1>
+<p>This is a synthesis of possible criteria for quality metrics based on a wide array of frameworks and literature (see <a class="reference internal" href="citations.html"><span class="doc">citations</span></a>), organized roughly into the seven categories identified by the Bruce/Hillmann framework.  Individual criteria could be used to create measurable benchmarks depending on the priorities and technical capabilities of a specific digital collection/organization for “better-than-minimal” benchmarks.</p>
+<p>Additionally, the scope of the metadata benchmarks focuses specifically on descriptive metadata values, but this list includes aspects contributing to overall quality, such as the role of data structures, sharability, technical maintenance and other components of digital collection description and maintenance.  However, note that technical specifications are still primarily within the context of descriptive metadata (e.g., may include technical criteria related to displaying values but not general UI/UX of digital libraries)</p>
+<ul class="simple">
+<li><p>Technical specifications: relate to system requirements, modeling, shareability, and other aspects outside of descriptive metadata values</p></li>
+<li><p>Metadata values: applies to values in metadata fields, primarily descriptive metadata, unless otherwise noted</p></li>
+</ul>
+<section id="accessibility">
+<h2>Accessibility<a class="headerlink" href="#accessibility" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>The schema or element set describes the items in
+a way that is understandable to its designated
+communities</p></li>
+<li><p>Infrastructure:</p>
+<ul>
+<li><p>has a stable source of access (e.g., a
+service provider guarantee)</p></li>
+<li><p>can be maintained with available local
+resources (monetary, technical, personnel,
+etc.)</p></li>
+<li><p>is extensible to add features when needed</p></li>
+</ul>
+</li>
+<li><p>Technical components for sharing metadata, such
+as URIs and OAI endpoints, are stable and and
+reliable</p></li>
+<li><p>Metadata is clearly licensed – with machine-
+and human-readable licenses – regarding
+harvest, republishing, and other applicable uses</p></li>
+<li><p>Metadata records are shareable, preferably as a
+bulk download</p></li>
+<li><p>Each metadata record has a unique, persistent
+identifier</p></li>
+<li><p>User displays have human-readable labels for
+fields and for values represented with
+machine-readable text (e.g., URIs)</p></li>
+<li><p>Metadata is indexed and searchable</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Values use terminology and a reading level that
+is understandable and appropriate for the
+audience or user community</p></li>
+<li><p>Shortened data values – e.g., abbreviations,
+acronyms, initialisms, etc. – include
+definitions or fuller values for clarification</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="accuracy">
+<h2>Accuracy<a class="headerlink" href="#accuracy" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>The schema or element set truthfully describes
+the items</p>
+<ul>
+<li><p>Both properties and values are defined</p></li>
+</ul>
+</li>
+<li><p>Any metadata creation, including  extraction,
+migration, transformation, etc. results in
+appropriate records according to the local
+schema</p></li>
+<li><p>Measures are in place for validation of:</p>
+<ul>
+<li><p>Record structure</p></li>
+<li><p>Values (when applicable)</p></li>
+<li><p>Schema properties</p></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>All relevant fields/information are free of
+formatting, spelling, and other kinds of
+typographical errors that impact findability</p></li>
+<li><p>“Noise” in elements is absent (e.g., tag
+fragments)</p></li>
+<li><p>Any default values are correct and appropriately
+used</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="completeness">
+<h2>Completeness<a class="headerlink" href="#completeness" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>The schema or element set is able to fully
+describe the items</p></li>
+<li><p>Controlled vocabularies or authorities contain
+all values needed for records</p></li>
+</ul>
+</td>
+<td><ul>
+<li><p>All relevant fields/information are included in
+all item records</p>
+<ul>
+<li><p>Required/mandatory fields have values
+(locally-required and/or required by
+consortia)</p></li>
+<li><p>Relevant optional fields are included</p></li>
+<li><p>Overall field values-per-record are
+appropriate and provide sufficient
+information</p></li>
+<li><p>Entries-per-field meet requirements or
+expectations of the local schema</p>
+<p>(e.g., a schema could require or prefer
+multiple subject-type entries)</p>
+</li>
+</ul>
+</li>
+<li><p>Field values contain all expected information
+and syntactic components (e.g., qualifiers)</p></li>
+<li><p>Enough <em>unique</em> information is included in an
+item record to be useful</p></li>
+<li><p>Values that support findability are included
+(e.g., field values connected to user interface
+functionality)</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="conformance-to-expectations">
+<h2>Conformance to expectations<a class="headerlink" href="#conformance-to-expectations" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>The data model describes what it claims to</p></li>
+<li><p>Controlled vocabularies are aligned with the
+needs of the user community or audience</p></li>
+<li><p>Data models or schemas that have been brought
+together from different sources have been
+reconciled</p></li>
+<li><p>Data from different sources can be merged
+without duplication or variants within a
+controlled field</p></li>
+<li><p>Compromises in schema usage are documented and
+align with the needs of the user community</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Values in the record describe the associated
+item (e.g., vs. a different item or a collection
+of items when not applicable)</p></li>
+<li><p>Data from varied sources has been normalized in
+a way that is appropriate to the audience or
+user group</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="consistency">
+<h2>Consistency<a class="headerlink" href="#consistency" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>Whenever possible, controlled vocabularies or
+system tools are used to enforce consistency
+within field values</p></li>
+<li><p>The metadata schema is clearly defined and
+applied to every applicable record in the same
+way</p></li>
+<li><p>The data model is</p>
+<ul>
+<li><p>well-structured and logical</p></li>
+<li><p>in line with similar models from the same
+domain</p></li>
+<li><p>uses consistent relationship directions</p></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Rules about “blank” (i.e., non-populated/null)
+or non-relevant elements are applied
+consistently (e.g., left empty, filled with
+prescribed values like N/A, etc.)</p></li>
+<li><p>Values for the same referent (e.g., a particular
+city, person, etc.) are identical</p></li>
+<li><p>Metadata values are formatted in alignment with
+local guidelines</p></li>
+<li><p>Values are consistent with similar usage in the
+user community</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="provenance">
+<h2>Provenance<a class="headerlink" href="#provenance" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>Information is documented about how records can
+be shared via OAI</p></li>
+<li><p>Data is protected from unauthorized changes</p></li>
+<li><p>Security measures, such as digital signatures,
+can be used to verify data authenticity</p></li>
+</ul>
+</td>
+<td><p><em>Administrative/preservation metadata</em></p>
+<ul class="simple">
+<li><p>The names of metadata creators and editors are
+documented, including anyone responsible for
+harvesting or normalizing records from another
+source</p></li>
+<li><p>All changes to a record are documented</p></li>
+<li><p>Methods of creating, extracting, or transforming
+metadata are documented</p></li>
+<li><p>Attribution for the source of the metadata
+record is included</p></li>
+<li><p>Appropriate vocabularies are used for
+documenting provenance information</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="timeliness">
+<h2>Timeliness<a class="headerlink" href="#timeliness" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>TECHNICAL SPECIFICATIONS</p></th>
+<th class="head"><p>METADATA VALUES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>Controlled vocabularies are managed and updated
+as needed</p></li>
+<li><p>“Age” of records and last edits/updates are
+recorded</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Record values are updated regularly, e.g.:</p>
+<ul>
+<li><p>As resources change</p></li>
+<li><p>As new information is available</p></li>
+<li><p>As local standards change</p></li>
+<li><p>To meet changing needs within the user
+community or audience</p></li>
+<li><p>As general practice or industry standards
+shift</p></li>
+</ul>
+</li>
+<li><p>Information supports current search and
+usage activities for the user community or
+audience</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="starting-questions.html" class="btn btn-neutral float-left" title="Questions to Answer Before Benchmarking" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="citations.html" class="btn btn-neutral float-right" title="Sources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright DLF-AIG Metadata Assessment Working Group.  This work is licensed under Creative Commons Attribution 4.0 International.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
