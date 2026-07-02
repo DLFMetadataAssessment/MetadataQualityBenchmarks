@@ -257,6 +257,22 @@ not every benchmark will apply depending on system requirements.  All applicable
 |                                           |                                       |   referencing a collection (depending     |
 |                                           |                                       |   on local usage)                         |
 +-------------------------------------------+---------------------------------------+-------------------------------------------+
+|All information not specific to the item   |-  Field values do not contain         |**Possible issues to remediate:**          |
+|has been removed                           |   collection-level data or other      |                                           |
+|                                           |   information that does not apply to  |-  Duplicated information propagated across|
+|                                           |   the specific item                   |   individual records in a collection --   |
+|                                           |                                       |   titles, creators, subjects, etc.        |
+|                                           |                                       |-  Any information not appropriate to the  |
+|                                           |                                       |   item type                               |
++-------------------------------------------+---------------------------------------+-------------------------------------------+
+|Administrative/acquisition information is  |-  Records contain information related |**Values that may be correct:**            |
+|appropriately noted and/or hidden from the |   to the provenance, preservation,    |                                           |
+|public, if applicable                      |   and/or administration of items in   |-  Donor-related information (e.g., who    |
+|                                           |   accordance with the local governing |   donated the item and when) is present   |
+|                                           |   schema                              |-  Conservation-related information (e.g., |
+|                                           |                                       |   which staff member treated an item, when|
+|                                           |                                       |   and how it was treated, etc.) is present|
++-------------------------------------------+---------------------------------------+-------------------------------------------+
 |Relevant recommended/optional fields have  |-  Recommended and optional fields are |**Note:**                                  |
 |values                                     |   not empty when information is       |                                           |
 |                                           |   available                           |-  This requires comparing an individual   |
